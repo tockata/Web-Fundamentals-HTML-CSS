@@ -2,6 +2,15 @@
     margin-left: -20px;
 }
 
+#circle {
+    list-style-type: circle;
+}
+
+#square {
+    list-style-type: square;
+}
+
 #lastUl {
     margin-left: -24px;
+    list-style-type: disc;
 }
