@@ -13,3 +13,7 @@ body {
 .indentation {
     margin-left: 40px;
 }
+
+ul {
+    list-style-type: disc;
+}

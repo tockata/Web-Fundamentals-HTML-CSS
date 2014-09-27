@@ -47,6 +47,7 @@ img {
 
 ul {
     color: #f2b254;
+    list-style-type: square;
 }
 
 span {
