@@ -18,7 +18,6 @@ table, th, td {
 
 table {
     border-radius: 25px;
-    border-spacing: 0;
     overflow: hidden;
 }
 
