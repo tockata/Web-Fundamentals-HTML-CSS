@@ -27,10 +27,6 @@ aside, article {
     background-color: rgba(255,255,255,0.9);
 }
 
-aside {
-    position: fixed;
-}
-
 article {
     font-size: 1.3em;
 }
@@ -40,6 +36,7 @@ nav {
 }
 
 aside {
+	position: fixed;
     float: left;
     width: 260px;
     margin: 25px 0 0 15px;
