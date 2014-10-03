@@ -36,11 +36,10 @@ nav {
 }
 
 aside {
-	position: fixed;
+    position: fixed;
     float: left;
     width: 260px;
     margin: 25px 0 0 15px;
-
 }
 
 nav > header {
