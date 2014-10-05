@@ -12,36 +12,67 @@
                 <td colspan="4"><input type="text" name="input" id="screen"></td>
             </tr>
             <tr>
-                <td><button id="one">1</button></td>
-                <td><button id="two">2</button></td>
-                <td><button id="3">3</button></td>
-                <td><button id="plus">+</button></td>
+                <td><button id="one" onclick="makeString(this.id)">1</button></td>
+                <td><button id="two" onclick="makeString(this.id)">2</button></td>
+                <td><button id="three" onclick="makeString(this.id)">3</button></td>
+                <td><button id="plus" onclick="makeString(this.id)">+</button></td>
             </tr>
             <tr>
-                <td><button id="four">4</button></td>
-                <td><button id="five">5</button></td>
-                <td><button id="six">6</button></td>
-                <td><button id="minus">-</button></td>
+                <td><button id="four" onclick="makeString(this.id)">4</button></td>
+                <td><button id="five" onclick="makeString(this.id)">5</button></td>
+                <td><button id="six" onclick="makeString(this.id)">6</button></td>
+                <td><button id="minus" onclick="makeString(this.id)">-</button></td>
             </tr>
             <tr>
-                <td><button id="seven">7</button></td>
-                <td><button id="eight">8</button></td>
-                <td><button id="nine">9</button></td>
-                <td><button id="multiply">*</button></td>
+                <td><button id="seven" onclick="makeString(this.id)">7</button></td>
+                <td><button id="eight" onclick="makeString(this.id)">8</button></td>
+                <td><button id="nine" onclick="makeString(this.id)">9</button></td>
+                <td><button id="multiply" onclick="makeString(this.id)">*</button></td>
             </tr>
             <tr>
-                <td><button id="clear">C</button></td>
-                <td><button id="zero">0</button></td>
-                <td><button id="result">=</button></td>
-                <td><button id="devide">/</button></td>
+                <td><button id="clear" onclick="makeString(this.id)">C</button></td>
+                <td><button id="zero" onclick="makeString(this.id)">0</button></td>
+                <td><button id="result" onclick="makeString(this.id)">=</button></td>
+                <td><button id="devide" onclick="makeString(this.id)">/</button></td>
             </tr>
         </tbody>
     </table>
     <script>
-        var calcSreen = document.getElementById("screen");
+        var calcScreen = document.getElementById("screen");
         var stringToEvaluate = "0";
-        calcSreen.value = stringToEvaluate;
+        calcScreen.value = stringToEvaluate;
 
+        stringToEvaluate = "";
+
+        function makeString(clickedID) {
+            if (clickedID != "result" && clickedID != "clear") {
+                switch (clickedID) {
+                    case "one": stringToEvaluate += "1"; calcScreen.value = stringToEvaluate; break;
+                    case "two": stringToEvaluate += "2"; calcScreen.value = stringToEvaluate; break;
+                    case "three": stringToEvaluate += "3"; calcScreen.value = stringToEvaluate; break;
+                    case "four": stringToEvaluate += "4"; calcScreen.value = stringToEvaluate; break;
+                    case "five": stringToEvaluate += "5"; calcScreen.value = stringToEvaluate; break;
+                    case "six": stringToEvaluate += "6"; calcScreen.value = stringToEvaluate; break;
+                    case "seven": stringToEvaluate += "7"; calcScreen.value = stringToEvaluate; break;
+                    case "eight": stringToEvaluate += "8"; calcScreen.value = stringToEvaluate; break;
+                    case "nine": stringToEvaluate += "9"; calcScreen.value = stringToEvaluate; break;
+                    case "zero": stringToEvaluate += "0"; calcScreen.value = stringToEvaluate; break;
+                    case "plus": stringToEvaluate += "+"; calcScreen.value = stringToEvaluate; break;
+                    case "minus": stringToEvaluate += "-"; calcScreen.value = stringToEvaluate; break;
+                    case "multiply": stringToEvaluate += "*"; calcScreen.value = stringToEvaluate; break;
+                    case "devide": stringToEvaluate += "/"; calcScreen.value = stringToEvaluate; break;
+                }
+            }
+            else if (clickedID == "clear") {
+                stringToEvaluate = "0";
+                calcScreen.value=stringToEvaluate;
+                stringToEvaluate = "";
+            }
+            else if (clickedID == "result") {
+                var resultString = eval(stringToEvaluate);
+                calcScreen.value = resultString;
+            }
+        }
     </script>
 </body>
 </html>
