@@ -1,0 +1,59 @@
+body {
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+table {
+    width: 450px;
+    height: 500px;
+}
+
+#second-table{
+    width: 115px;
+    height: 75px;
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    height: 80px;
+    width: 125px;
+}
+
+.second-td {
+    height: 50px;
+    width: 50px;
+}
+
+th button {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    color: #0000ff;
+}
+
+table tbody tr:nth-child(4) td:first-child button {
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: right;
+}
+
+#second-table td {
+    font-size: 0.7em;
+    vertical-align: middle;
+    text-align: center;
+}

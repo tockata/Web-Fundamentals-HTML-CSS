@@ -1,0 +1,86 @@
+body {
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+table {
+    width: 450px;
+    height: 500px;
+}
+
+#second-table{
+    width: 115px;
+    height: 75px;
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    font-size: 1.5em;
+    height: 80px;
+    width: 125px;
+}
+
+.second-td {
+    height: 50px;
+    width: 50px;
+}
+
+th {
+    font-size: 3em;
+}
+
+table tbody tr:first-child td:first-child {
+    vertical-align: top;
+    text-align: left;
+}
+
+table tbody tr:first-child td:last-child {
+    vertical-align: top;
+    text-align: right;
+}
+
+table tbody tr:nth-child(2) td:first-child {
+    vertical-align: top;
+    text-align: center;
+}
+
+table tbody tr:nth-child(2) td:nth-child(3) {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table tbody tr:nth-child(3) {
+    height: 100px;
+}
+
+table tbody tr:nth-child(3) td:first-child {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+table tbody tr:nth-child(3) td:nth-child(2) {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+table tbody tr:nth-child(4) td:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: right;
+}
+
+#second-table td {
+    font-size: 0.7em;
+    vertical-align: middle;
+    text-align: center;
+}
