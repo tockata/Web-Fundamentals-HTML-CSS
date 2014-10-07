@@ -36,6 +36,14 @@ button:hover {
     background-color: red;
 }
 
+#plus:hover, #minus:hover, #multiply:hover, #devide:hover {
+    background-color:gold;
+}
+
+#result:hover {
+    background-color: lime;
+}
+
 input {
     text-align: right;
     font-size: 3em;
