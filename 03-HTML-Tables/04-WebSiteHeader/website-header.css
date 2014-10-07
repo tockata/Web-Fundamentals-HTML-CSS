@@ -22,6 +22,35 @@ td {
 a {
     color: #ffffff;
     text-decoration: none;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
+.menu:hover {
+    display: block;
+    background-color: #4CA0DB;
+    border-radius: 5px;
+}
+
+#notifications a {
+    float: right;
+}
+
+#notifications a:hover {
+    float: right;
+    text-decoration: underline;
+}
+
+#notifications img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+#notifications span {
+    color: #FE9753;
+    font-weight: bold;
+    vertical-align: bottom;
 }
 
 input[type='text'] {
@@ -33,25 +62,19 @@ input[type='text'] {
 }
 
 input [type='image'] {
-    margin-right: 20px;
+    margin-right: 22px;
     margin-bottom: -5px;
     float: right;
 }
 
-#zero {
-    float: right;
-    margin-top: 12px;
-}
-
-[title~=bell] {
-    float: right;
-    margin-top: 8px;
-}
-
 #user {
-    display: block;
+    display: inline-block;
     margin-top: 7px;
     margin-left: -45px;
+}
+
+#user:hover {
+    text-decoration: underline;
 }
 
 #search {
