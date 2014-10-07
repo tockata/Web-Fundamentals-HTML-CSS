@@ -3,14 +3,20 @@ body {
     font-size: 14px;
 }
 
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+
 table, td {
-    border: 1px solid black;
+    border: 7px solid #007b08;
+    border-collapse: collapse;
     border-spacing: 0;
     padding: 0;
 }
 
 td {
-    width: 80px;
+    width: 70px;
     height: 100px;
 }
 
@@ -18,10 +24,15 @@ button {
     font-size: 3em;
     width: 100%;
     height: 100%;
+    background-color:midnightblue;
+    color: #ffffff;
 }
 
 input {
     text-align: right;
     font-size: 3em;
     height: 100%;
+    margin: -1px;
+    padding: 0 5px;
+    background-color: #e9e9e9;
 }
