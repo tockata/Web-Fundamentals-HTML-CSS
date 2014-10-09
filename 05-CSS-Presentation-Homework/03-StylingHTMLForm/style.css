@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    width: 400px;
+    width: 402px;
     margin: 0 auto;
 }
 
@@ -46,12 +46,19 @@ p {
 
 #address-field {
     height: 110px;
+    display: table-cell;
 }
 
 textarea {
-    height: 85px;
+    min-height: 85px;
     width: 200px;
     resize: vertical;
+    max-height: 175px;
+    margin-bottom: 12px;
+}
+
+#postcode-div {
+    margin-top: 3px;
 }
 
 #cards-choice {
@@ -77,6 +84,10 @@ input[type='submit'] {
     background-color: #04152f;
     color: #ffffff;
     font-size: 1em;
+}
+
+input[type='submit']:hover {
+    background-color: #4CA0DB;
 }
 
 input:focus, textarea:focus {
