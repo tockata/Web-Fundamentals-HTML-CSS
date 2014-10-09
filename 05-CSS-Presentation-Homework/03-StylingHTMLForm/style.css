@@ -51,6 +51,7 @@ p {
 textarea {
     height: 85px;
     width: 200px;
+    resize: vertical;
 }
 
 #cards-choice {
