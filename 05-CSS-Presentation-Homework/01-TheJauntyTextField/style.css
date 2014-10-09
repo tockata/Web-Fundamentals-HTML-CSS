@@ -68,8 +68,7 @@ body {
     text-align: center;
     width: 220px;
     background-color: #d8921a;
-    border: 3px solid #ffa600;
-    border-style: outset;
+    border: 3px outset #ffa600;
     margin-left: 50px;
     margin-top: 16px;
 }
@@ -78,8 +77,7 @@ body {
     text-align: center;
     width: 220px;
     background-color: #d8921a;
-    border: 3px solid #ffa600;
-    border-style: outset;
+    border: 3px outset #ffa600;
     margin-left: 295px;
     margin-top: 16px;
 }
@@ -142,5 +140,3 @@ body {
     font-size: 1.3em;
     padding-top: 8px;
 }
-
-#div-in-biggest
