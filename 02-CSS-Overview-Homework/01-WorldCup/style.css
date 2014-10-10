@@ -1,6 +1,6 @@
 body {
     background-color: #00923e;
-    font-family: tahoma;
+    font-family: tahoma, sans-serif;
 }
 
 #container {
@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     border: 1.5px solid black;
     border-radius: 25px;
+    overflow: hidden;
 
 }
 
@@ -18,7 +19,7 @@ table, th, td {
 
 table {
     border-radius: 25px;
-    overflow: hidden;
+
 }
 
 tr:nth-child(2n + 1) {
