@@ -21,6 +21,7 @@ body {
     background-color: #f7fcff;
     border: 1px solid #d8eef9;
     margin-top: 20px;
+    text-align: center;
 }
 
 .laptop {
@@ -72,4 +73,32 @@ a {
 
 #last-div {
     clear: both;
+}
+
+.range {
+    height: 90px;
+}
+
+.range:first-of-type {
+    margin-top: 10px;
+}
+
+.heading {
+    font-size: 1.3em;
+}
+
+.left-text {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.right-text {
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 230px;
 }
