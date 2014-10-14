@@ -60,6 +60,7 @@ input {
 
 #register input {
     border-color: #d9d9d9;
+    border-style: solid;
 }
 
 #register input[type="submit"] {
@@ -68,6 +69,7 @@ input {
      color: #365472;
      background-color: #eeeeee;
      border-color: #365472;
+    border-style: solid;
  }
 
 #login input[type="submit"] {
@@ -77,6 +79,7 @@ input {
     color: white;
     border-color: #ffa700;
     background-color: #234465;
+    border-style: solid;
 }
 
 #login a {
