@@ -1,0 +1,96 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 675px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: #1a3d5f;
+    padding: 10px;
+}
+
+header p {
+    font-size: 0.8em;
+    color: #a4a4a4;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+#register {
+    float: left;
+    width: 300px;
+    padding: 15px;
+    height: 200px;
+}
+
+#login {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    background-color: #234465;
+    color: white;
+}
+
+#new {
+    color: #6d6d6d;
+}
+
+#reg {
+    color: #16395c;
+}
+
+input {
+    height: 40px;
+    width: 286px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+#register p, #login p {
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+#register input {
+    border-color: #d9d9d9;
+}
+
+#register input[type="submit"] {
+     float: right;
+     width: 130px;
+     color: #365472;
+     background-color: #eeeeee;
+     border-color: #365472;
+ }
+
+#login input[type="submit"] {
+    float: right;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-color: #ffa700;
+    background-color: #234465;
+}
+
+#login a {
+    color: white;
+    font-size: 0.8em;
+    padding-left: 200px;
+}
+
+#login label {
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+#remember {
+    width: 20px;
+    height: 20px;
+}

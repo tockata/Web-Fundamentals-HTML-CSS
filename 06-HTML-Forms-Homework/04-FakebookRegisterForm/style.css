@@ -1,0 +1,135 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 900px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #3b5997;
+    color: white;
+}
+
+h1, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 0;
+}
+
+h1 span {
+    font-size: 0.15em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#left-div {
+    float: left;
+    width: 350px;
+    margin-left: 17px;
+}
+
+#right-div {
+    float: right;
+    width: 500px;
+    margin-right: 17px;
+}
+
+.left-div-inputs {
+    width: 140px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.big, .left-div-inputs {
+    width: 145px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+select {
+    color: darkgray;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 31px;
+    width: 149px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+input[type="color"] {
+    height: 27px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.small {
+    width: 72px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+textarea {
+    width: 455px;
+    height: 70px;
+    border-radius: 5px;
+    resize: none;
+}
+
+fieldset {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+#left-div fieldset {
+    height: 258px;
+}
+
+input[type="reset"] {
+    width: 348px;
+    height: 50px;
+    color: #3b5997;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1px;
+}
+
+input[type="submit"] {
+    width: 498px;
+    height: 50px;
+    color: #3b5997;
+    font-size: 1.8em;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2px;
+}

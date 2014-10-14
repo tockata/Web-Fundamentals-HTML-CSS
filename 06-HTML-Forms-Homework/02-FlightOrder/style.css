@@ -1,0 +1,70 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 490px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ffc0cb;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.3em;
+}
+
+select {
+    font-weight: bold;
+    font-size: 1em;
+    width: 215px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+input {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+#left {
+    float: left;
+    width: 225px;
+    padding: 10px;
+}
+
+#right {
+    float: right;
+    width: 225px;
+    padding: 10px;
+}
+
+.left-div-input {
+    width: 215px;
+    height: 25px;
+}
+
+#inner-left input {
+    width: 65px;
+}
+
+#inner-left label[for="over-twelve"] {
+    padding-right: 42px;
+}
+
+#inner-left label[for="two-twelve"] {
+    padding-right: 37px;
+}
+
+#flight-class {
+    width: 215px;
+}
+
+#search {
+    width: 215px;
+    height: 25px;
+    font-size: 1em;
+}

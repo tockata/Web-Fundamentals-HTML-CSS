@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Flight Order</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>FLIGHT ORDER</h1>
+        </header>
+        <form>
+            <div id="left">
+                <label for="from-city">From</label>
+                <select name="city" id="from-city" class="left-div-input">
+                    <option>enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="london">London</option>
+                    <option value="new york">New York</option>
+                </select>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" id="departure-date" class="left-div-input" value="2014-06-09">
+                <label for="return-date">Return Date</label>
+                <input type="date" id="return-date" class="left-div-input" value="2014-06-13">
+                <div id="inner-left">
+                    <label for="over-twelve">12+</label>
+                    <label for="two-twelve">2-12</label>
+                    <label for="under-two">0-2</label><br>
+                    <input type="number" min="0" value="0" id="over-twelve">
+                    <input type="number" min="0" value="0" id="two-twelve">
+                    <input type="number" min="0" value="0" id="under-two">
+                </div>
+            </div>
+            <div id="right">
+                <label for="to-city">To</label>
+                <select name="city" id="to-city" class="left-div-input">
+                    <option>enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="london">London</option>
+                    <option value="new york">New York</option>
+                </select>
+                <input type="checkbox" name="directs" id="directs" value="yes">
+                <label for="directs">Prefer directs</label><br>
+                <label for="departure-time">Time interval</label><br>
+                <input type="time" name="departure-time-start" id="departure-time" value="00:20">
+                <input type="time" name="departure-time-end" id="departure-time-end" value="05:00">
+                <label for="return-time">Time interval</label><br>
+                <input type="time" name="return-time-start" id="return-time" value="16:00">
+                <input type="time" name="return-time-end" id="retuen-time-end" value="22:00">
+                <label for="flight-class">Choose class</label><br>
+                <select name="flight-class" id="flight-class">
+                    <option value="economy" selected="selected">Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first-class">First class</option>
+                </select><br>
+                <input type="submit" id="search" value="Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
