@@ -75,6 +75,14 @@ select {
     padding: 3px;
 }
 
+option {
+    color: black;
+}
+
+option:disabled {
+    color: darkgray;
+}
+
 input[type="color"] {
     height: 27px;
     vertical-align: bottom;

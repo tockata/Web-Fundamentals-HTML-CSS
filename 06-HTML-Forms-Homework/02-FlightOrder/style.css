@@ -59,6 +59,10 @@ input {
     padding-right: 37px;
 }
 
+.time {
+    width: 100px;
+}
+
 #flight-class {
     width: 215px;
 }
