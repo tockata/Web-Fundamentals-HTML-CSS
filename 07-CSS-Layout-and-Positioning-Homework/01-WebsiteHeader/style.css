@@ -1,0 +1,158 @@
+body {
+    font-family: tahoma, sans-serif;
+    color: #ffffff;
+}
+
+#container {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #234465;
+}
+
+#logo {
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 270px;
+}
+
+#right-div {
+    float: right;
+}
+
+#upper-div {
+    float: right;
+    width: 360px;
+    margin: 10px 30px -5px 0;
+    clear: both;
+}
+
+#user:hover {
+    text-decoration: underline;
+}
+
+#notifications {
+    position: relative;
+    float: left;
+}
+
+#zero {
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    margin-left: -20px;
+}
+
+#zero:hover {
+    text-decoration: underline;
+}
+
+#notifications img {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+#user {
+    display: inline-block;
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+
+#search {
+    float: right;
+    position: relative;
+}
+
+input[type="search"]{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+input[type="image"] {
+    position: absolute;
+    right: 1px;
+    top: 7px;
+    border-left: 1px solid #e3e3e3;
+}
+
+#menu {
+    float: left;
+    width: 900px;
+    clear: both;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 38px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #4CA0DB;
+    border-radius: 5px;
+}
+
+ul li:hover > ul {
+    display: block;
+    width: 250px;
+    left: 0;
+    padding-top: 7px;
+ }
+
+ul li:hover > ul li {
+    display: block;
+    margin-left: -40px;
+}
+
+ul ul li:hover {
+    background-color: #FF9C00;
+    border-radius: 0;
+}
+
+ul ul li {
+    padding: 0;
+    background-color: #234465;
+    border-bottom: 1px solid #647B92;
+}
+
+ul ul li:last-of-type {
+    border-bottom: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 10px;
+}
+
+.section {
+    font-weight: bold;
+    color: #4ca0db;
+}
+
+.section:hover {
+    font-weight: bold;
+    color: #ffffff;
+}

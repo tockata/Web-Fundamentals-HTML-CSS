@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+    color: #ffffff;
+}
+
+#container {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #234465;
+}
+
+section {
+    width: 210px;
+    margin: 40px 0 20px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#buttons {
+    margin-left: 40px;
+}
+
+#version {
+    margin-left: -10px;
+}
+
+#facebook {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#buttons a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FF9C00;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+#buttons a:hover {
+    background-color: #FF9C00;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    font-size: 0.9em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #FF9C00;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+h3 {
+    font-size: 0.80em;
+    text-transform: uppercase;
+    color: #ff9c00;
+}
+
+#version h3 {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+span {
+    display: inline-block;
+    width: 250px;
+    font-size: 0.9em;
+}
+
+#social-networks{
+    margin-top: 20px;
+}
+
+#social-networks img {
+    margin-right: 5px;
+}
+
+#social-networks img:hover {
+    opacity: 0.6;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+li {
+    padding-top: 7px;
+}
+
+ul li:first-of-type {
+    padding-top: 15px;
+}
+
+.fb-like-box {
+    background-color: #E9ECEF;
+}
