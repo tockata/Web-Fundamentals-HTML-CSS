@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+
+h1 {
+    font-weight: normal;
+    margin-left: 95px;
+    padding-top: 20px;
+    color: #2A6496;
+}
+
+article {
+    width: 300px;
+    height: 380px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 25px 20px 25px;
+    box-shadow: 0 2px 5px #C3C3C3;
+}
+
+#first-article {
+    float: left;
+    margin-left: 95px;
+}
+
+#second-article {
+    float: left;
+    margin-left: 30px;
+}
+
+#third-article {
+    float: left;
+    margin-left: 30px;
+}
+
+h4 {
+
+    padding-bottom: 20px;
+}
+
+h4 a{
+    font-size: 0.9em;
+    color: #2A6496;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#second-article h4, #third-article h4 {
+    padding-bottom: 2px;
+}
+
+.date {
+    font-size: 0.9em;
+    display: inline-block;
+    float: right;
+}
+
+.author {
+    font-size: 0.8em;
+    color: #5A5A5A;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.details a{
+    font-size: 0.8em;
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+    text-decoration-color: #2A6496;
+}
+
+.tags, .tags-text {
+    font-size: 0.8em;
+}
+
+.tags {
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.tags-text {
+    color: #999;
+}
+
+hr {
+    width: 300px;
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #EEEEEE;
+}
+
+#second-article hr:last-of-type {
+    margin-top: 38px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+ul {
+    clear: both;
+    list-style-type: none;
+    margin-left: 95px;
+}
+
+li {
+    color: #ffffff;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #4CA0DB;
+    border: 1px solid #ffffff;
+    float: left;
+    margin-right: -1px;
+}
+
+li:hover {
+    background-color: #FF9C00;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+li:first-of-type {
+    background-color: #FF9C00;
+}
+
+li:first-of-type:hover {
+    background-color: #4CA0DB;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
