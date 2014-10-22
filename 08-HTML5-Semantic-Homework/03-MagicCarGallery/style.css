@@ -1,0 +1,43 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffff00;
+    text-align: center;
+    padding-top: 20px;
+}
+
+iframe {
+    float: left;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #ffff00;
+}
+
+#list {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    font-size: 1.7em;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+}

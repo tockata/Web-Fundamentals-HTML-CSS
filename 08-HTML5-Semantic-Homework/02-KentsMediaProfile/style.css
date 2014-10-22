@@ -1,0 +1,47 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ffc0cb;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#user {
+    width: 300px;
+    float: left;
+}
+
+#user h2 {
+    margin-left: 40px;
+}
+
+meter {
+    width: 160px;
+    height: 25px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+#audio {
+    float: left;
+    width: 300px;
+}
+
+#audio audio:first-of-type {
+    height: 70px;
+    background-color: #000000;
+    padding-bottom: 90px;
+}
+
+#video {
+    float: left;
+    margin-left: 20px;
+}
