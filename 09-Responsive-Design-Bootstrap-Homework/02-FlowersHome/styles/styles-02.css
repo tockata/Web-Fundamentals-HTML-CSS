@@ -114,6 +114,15 @@ aside.left {
         text-decoration: none;
     }
 
+    aside.left a img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    aside.left a span {
+        vertical-align: -15%;
+    }
+
 aside.right {
     padding: 15px 10px;
 }
