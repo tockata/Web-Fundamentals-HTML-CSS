@@ -4,6 +4,9 @@
     <list default="true" id="c736bb6c-dedf-4395-bdd6-fabb0b889843" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-1-BGJUGWebPage/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-1-BGJUGWebPage/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/footer.html" afterPath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/header.html" afterPath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/main.html" afterPath="$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/main.html" />
     </list>
     <ignored path="Web-Fundamentals-HTML-CSS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -516,22 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-1-BGJUGWebPage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0673234" vertical-offset="2175" max-vertical-offset="4975">
-          <caret line="113" column="19" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-1-BGJUGWebPage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2525">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09-Responsive-Design-Bootstrap-Homework/01-UnresponsiveHomework/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3648">
@@ -564,42 +551,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage/style.css">
+    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3781">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.098958336" vertical-offset="0" max-vertical-offset="576">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage/main.html">
+    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="1045">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.098958336" vertical-offset="0" max-vertical-offset="1045">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage/footer.html">
+    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="893">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.098958336" vertical-offset="0" max-vertical-offset="893">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage/header.html">
+    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage-Frames/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="551">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-HTML5-Semantic-Homework/04-2-BGJUGWebPage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23090278" vertical-offset="0" max-vertical-offset="576">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.098958336" vertical-offset="0" max-vertical-offset="576">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
           <folding />
         </state>
       </provider>
