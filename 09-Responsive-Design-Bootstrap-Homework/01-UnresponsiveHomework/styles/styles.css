@@ -1,0 +1,187 @@
+div, header, ul, li, nav, section, article, footer, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6698ff;
+    font-family: tahoma, sans-serif;
+}
+
+#wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+
+body #wrapper>header h1 {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
+}
+
+    body header h1 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    body header h1 a span {
+        display: inline-block;
+        vertical-align: 6px;
+    }
+
+body nav ul {
+    float: right;
+    list-style-type: none;
+    margin: -2.5% 2% 2% 0;
+}
+
+    body nav li {
+        display: inline-block;
+        border: 1px solid black;
+        background-color: white;
+        padding: 7px 12px;
+    }
+
+        body nav li a {
+            color: black;
+            text-decoration: none;
+        }
+
+body header {
+    clear: both;
+}
+
+body section article, aside, footer {
+    border: 1px solid black;
+    background-color: #e0eafe;
+}
+
+body section {
+    display: inline-block;
+    width: 70%;
+}
+
+body section article {
+    text-align: justify;
+    margin-top: 2%;
+}
+
+    body section article h1 {
+        font-size: 1.2em;
+        font-weight: normal;
+        padding: 2%;
+    }
+    
+    body section article p {
+        font-size: 0.8em;
+        padding: 2%;
+    }
+
+body aside {
+    display: inline-block;
+    width: 25%;
+    float: right;
+    clear: both;
+    margin-top: 1.5%;
+}
+
+    body aside ul {
+        list-style-type: none;
+    }
+
+    body aside li {
+        padding: 4% 5% 5% 5%;
+    }
+
+    body aside li a {
+        color: black;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+
+body footer {
+    display: block;
+    text-align: center;
+    height: 30px;
+    margin-top: 2%;
+}
+
+    body footer h2 {
+        font-size: 0.9em;
+        margin-top: 1.2%;
+    }
+
+/* Media queries */
+
+@media only screen and (max-width:960px) {
+    #wrapper {
+        width: 100%;
+    }
+    
+    body section {
+        margin-left: 0;
+    }
+    
+    body aside {
+        width: 20%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    #wrapper {
+        width: 100%;
+    }
+    
+    body section {
+        display: block;
+        width: 100%;
+        margin-top: 7%;
+    }
+    
+    body aside {
+        display: inline-block;
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    body aside li {
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    body header img {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    body header h1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    body header nav ul {
+        float: none;
+        margin-left: 20%;
+        margin-top: -6%;
+    }
+    
+    body header nav ul li {
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+    
+    body aside li {
+        width: 100%;
+        display: block;
+        padding: 1% 1% 2% 1%;
+    }
+}
