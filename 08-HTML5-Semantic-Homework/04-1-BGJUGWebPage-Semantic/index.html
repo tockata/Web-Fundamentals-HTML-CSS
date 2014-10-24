@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BGJUG WebPage</title>
+</head>
+<body>
+    <header class="clearfix">
+        <h1>BGJUG – Bulgarian Java User Group</h1>
+        <nav>
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <form method="get" action="#">
+            <input type="search" placeholder="Search">
+            <input type="image" src="../resources/search.png" alt="search">
+        </form>
+    </header>
+    <main class="clearfix">
+        <aside id="left">
+            <ul>
+                <li><a href="#">Validate Configuration on Startup</a></li>
+                <li><a href="#">Software University </a></li>
+                <li><a href="#">Conference Presentation about Java 8</a></li>
+                <li><a href="#">Scala – the Good, the Bad and the Very Ugly [presentation]</a></li>
+                <li><a href="#">Load-Testing Guidelines</a></li>
+            </ul>
+        </aside>
+        <aside id="right">
+            <span>LANGUAGE</span><br>
+            <hr>
+            <select>
+                <option>Bulgarian</option>
+                <option>English</option>
+            </select><br>
+            <span>BLOGROLL</span><br>
+            <hr>
+        </aside>
+        <section>
+            <article>
+                <h2>An Architecture for E-Voting</h2>
+                <span class="article-gray">by</span> <a href="#">BOZHO</a> <span class="article-gray">on</span> <time datetime="2014-05-27">May 27, 2014</time> . <a href="#">LEAVE A COMMENT</a><br>
+                <p>
+                    E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make […]
+                </p>
+                <a href="#" class="blue-link">Continue Reading &ShortRightArrow;</a>
+            </article>
+            <article>
+                <h2>The Optional Type API</h2>
+                <span class="article-gray">by</span> <a href="#">BOZHO</a> <span class="article-gray">on</span> <time datetime="2014-03-19">March 19, 2014</time> . <a href="#">LEAVE A COMMENT</a><br>
+                <p>
+                    Java 8 introduces the Optional class. In a nutshell, instead of returning null, and then checking for null, you return an Optional instance, which can either have or not have a value set. That way you don’t fail with NullPointerException. I won’t discuss whether the Optional type will eliminate NPEs completely (it won’t). Instead I’ll […]
+                </p>
+                <a href="#" class="blue-link">Continue Reading &ShortRightArrow;</a>
+            </article>
+            <a href="#" class="blue-link">&ShortLeftArrow; Previous Entries</a>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-gray">
+            <img src="../resources/twitter.png" alt="twitter">
+            <span>Set your Twitter account name in your settings to use the TwitterBar Section.</span>
+        </div>
+        <div id="footer-black">
+            <div id="bgjug">
+                <h3>BGJUG – Java Bulgarian User Group</h3>
+            </div>
+            <div id="pages">
+                <h3>PAGES</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div id="latest">
+                <h3>THE LATEST</h3>
+                <a href="#">An Architecture for E-Voting</a><br>
+                <span>E-voting is a hot topic in my country, and has been discussed [...]</span>
+            </div>
+            <div id="more">
+                <h3>MORE</h3>
+                <span>Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to the </span><a href="#">RSS feed</a>
+            </div>
+            <div id="copyright">
+                <span>&copy; 2011 BGJUG - Java </span><br>
+                <span>Bulgarian User Group</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

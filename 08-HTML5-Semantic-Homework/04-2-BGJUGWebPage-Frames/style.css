@@ -1,0 +1,193 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+form {
+    float: right;
+    position: relative;
+}
+
+input[type="search"] {
+    background-color: #f7f7f7;
+    border: 1px solid #DDDDDD;
+    height: 30px;
+    padding-left: 5px;
+}
+
+input[type="image"] {
+    position: absolute;
+    right: 8px;
+    bottom: 7px;
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+aside#left {
+    width: 15%;
+    border-top: 1px solid #E9E9E9;
+    float: left;
+    margin-top: 100px;
+}
+
+#left ul {
+    list-style-type: none;
+}
+
+#left li {
+    margin-bottom: 10px;
+}
+
+#left a {
+    color: #225E9B;
+    text-decoration: none;
+}
+
+#left a:hover {
+    text-decoration: underline;
+}
+
+aside#right {
+    margin-top: 50px;
+    width: 20%;
+    float: right;
+}
+
+#right span {
+    color: #959595;
+}
+
+select {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+section {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+article h2 {
+    font-weight: normal;
+}
+
+article time, article a {
+    color: #777777;
+}
+
+article a:hover {
+    color: #5A5A5A;
+}
+
+.blue-link {
+    color: #225E9B;
+    text-decoration: none;
+}
+
+article .article-gray {
+    color: #959595;
+}
+
+article:last-of-type {
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+#footer-gray {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+    padding-left: 40px;
+}
+
+#footer-gray img {
+    padding-top: 7px;
+    margin-right: 15px;
+}
+
+#footer-gray span {
+    position: absolute;
+    display: inline-block;
+    bottom: 18px;
+}
+
+#bgjug, #pages, #latest, #more, #copyright {
+    width: 15%;
+    float: left;
+    margin-left: 4%;
+}
+
+#footer-black {
+    height: 200px;
+    background-color: #000000;
+}
+
+footer:not(a), #footer-black:not(a) {
+    color: #999999;
+}
+
+footer h3, footer a {
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 1em;
+}
+
+#bgjug h3 {
+    font-size: 1.4em;
+    margin-top: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-left: -38px;
+}
+
+#copyright {
+    margin-top: 20px;
+}
+
