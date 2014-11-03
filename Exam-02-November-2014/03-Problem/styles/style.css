@@ -1,0 +1,138 @@
+body, div, form, img, input, h1, fieldset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-color: #F0F0F1;
+}
+
+#wrapper {
+    width: 800px;
+    height: 500px;
+    margin: 20px auto 0 auto;
+    padding: 15px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0 0 15px #D6D6D6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 0.8em;
+}
+
+#form-holder {
+    border-top: 1px solid #CFCFCF;
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+form {
+    width: 49%;
+    background-color: #FFFFFF;
+}
+
+#left-form {
+    float: left;
+}
+
+#right-form {
+    float: right;
+    margin-right: -9px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 97%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    padding-left: 10px;
+    color: #888888;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+label {
+    color: #88878C;
+    font-size: 0.9em;
+}
+
+#left-form input:first-of-type, #left-form input:nth-of-type(2) {
+    background: url('../resources/ok.png') no-repeat 98% center;
+}
+
+#left-form input:nth-of-type(3), #left-form input:nth-of-type(4) {
+    background: url('../resources/no.png') no-repeat 98% center;
+}
+
+#left-form input[type="submit"] {
+    width: 180px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #F2F2F3;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 3px #CACACA;
+    margin-top: 15px;
+}
+
+#right-form a {
+    color: #EE716F;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+#right-form a:hover {
+    text-decoration: underline;
+}
+
+#right-form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #F2F2F3;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 3px #CACACA;
+    margin-top: 15px;
+}
+
+#right-form input:first-of-type {
+    background: url('../resources/ok.png') no-repeat 98% center;
+}
+
+#right-form input:nth-of-type(2) {
+    background: url('../resources/no.png') no-repeat 98% center;
+}
+
+#left-form input[type="submit"]:hover, #right-form input[type="submit"]:hover {
+    background-color: #B0E06B;
+    cursor: pointer;
+}

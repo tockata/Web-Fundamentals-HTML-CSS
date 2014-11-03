@@ -1,0 +1,144 @@
+body, header, section, footer, a, ul, li, article, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+body {
+    font-family: Open-sans, sans-serif;
+    background-color: #F4F4F6;
+}
+
+header>div, #wrapper, footer>p {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    margin-top: 20px;
+}
+
+header {
+    background: url("../resources/bgr.jpg") repeat;
+}
+
+header {
+    height: 350px;
+}
+
+header>div {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 185px;
+    left: 470px;
+    background-color: rgba(102, 102, 102, 0.8);
+    padding: 10px 20px;
+}
+
+aside {
+    width: 25%;
+    float: left;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 15px 152px 16px 30px;
+    width: 100px;
+    line-height: 3em;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    background-color: #41464C;
+    border-bottom: 1px solid #474D53;
+}
+
+nav ul li:hover {
+    background-color: #51555B;
+    border-left: 5px solid #246362;
+}
+
+nav ul li:hover a {
+    padding: 15px 152px 16px 25px;
+}
+
+aside .active {
+    background-color: #35393E;
+    border-left: 5px solid #246362;
+}
+
+nav ul li.active a {
+    padding-left: 25px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+nav img {
+    opacity: 0.7;
+}
+
+section#main-section {
+    width: 70%;
+    float: right;
+}
+
+section .inner-section {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid #BDBCC1;
+    color: #7F8192;
+}
+
+h2 {
+    color: #BDBCC1;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 10px 0 5px 0;
+}
+
+section .inner-section a {
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #CCCACF;
+    height: 150px;
+    font-size: 1.4em;
+    color: #4F4A4C;
+}
+
+footer p{
+    line-height: 4em;
+}
