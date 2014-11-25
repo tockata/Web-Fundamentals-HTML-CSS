@@ -1,0 +1,177 @@
+body, header, nav, ul, li, section, article, p, div, img, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+header {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header div {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+header div img {
+    display: inline-block;
+}
+
+header div nav {
+    display: inline-block;
+    vertical-align: 105%;
+}
+
+header div ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+header div ul li {
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+}
+
+header div ul li a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header div ul li:first-of-type a {
+    text-decoration: none;
+    color: #f99600;
+}
+
+header div ul li a:hover {
+    color: #555555;
+    background-color: #cad1d1;
+    border-radius: 10px;
+}
+
+header div ul li:first-of-type a:hover {
+    color: #f99600;
+}
+
+section {
+    width: 840px;
+    margin: 0 auto;
+}
+
+section h1 {
+    color: #3e3e3e;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+section article #left {
+    color: #585858;
+    font-size: 0.9em;
+    line-height: 1.5;
+    width: 360px;
+    float: left;
+    margin-left: 40px;
+}
+
+section article #left p {
+    margin-bottom: 30px;
+}
+
+section article #right {
+    color: #585858;
+    font-size: 0.9em;
+    line-height: 1.5;
+    width: 360px;
+    float: right;
+    margin-right: 40px;
+}
+
+section article #right p {
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: #eeeeee;
+    border-top: 1px solid #e6e6e6;
+}
+
+footer p {
+    color: #585858;
+    font-size: 0.8em;
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+footer div {
+    width: 920px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+footer div#sprite-holder {
+    width: 200px;
+    float: right;
+    margin-top: 25px;
+}
+
+.sprite {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#facebook {
+    background: url('../resources/icons.png') 0 0;
+}
+
+#facebook:hover {
+    background: url('../resources/icons.png') -40px 0;
+}
+
+#google {
+    background: url('../resources/icons.png') 0 -40px;
+}
+
+#google:hover {
+    background: url('../resources/icons.png') -40px -40px;
+}
+
+#twitter {
+    background: url('../resources/icons.png') 0 -80px;
+}
+
+#twitter:hover {
+    background: url('../resources/icons.png') -40px -80px;
+}
+
+#tumblr {
+    background: url('../resources/icons.png') 0 -120px;
+}
+
+#tumblr:hover {
+    background: url('../resources/icons.png') -40px -120px;
+}

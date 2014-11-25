@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 648px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.comment {
+    width: 100%;
+    margin-bottom: 10px;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+}
+
+.comment:last-of-type {
+    border-bottom: 1px solid #cccccc;
+}
+
+.user {
+    width: 200px;
+    float: left;
+}
+
+.user img {
+    float: left;
+    margin-right: 10px;
+}
+
+.name-date {
+    float: left;
+}
+
+.name-date p {
+    font-size: 0.8em;
+}
+
+.name {
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.date {
+    color: #999999;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.buttons-votes {
+    width: 150px;
+    float: right;
+}
+
+.buttons {
+    float: right;
+}
+
+.buttons img:nth-child(1) {
+    margin-right: 10px;
+}
+
+.buttons img:nth-child(2) {
+    margin-right: 10px;
+}
+
+.buttons p {
+    float: right;
+}
+
+.text {
+    font-size: 0.8em;
+    margin: 0 0 20px 0;
+}
+
+.positive-votes {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #666666;
+    margin-top: 3px;
+}
+
+.negative-votes {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: red;
+    margin-top: 3px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #aaaaaa;
+}

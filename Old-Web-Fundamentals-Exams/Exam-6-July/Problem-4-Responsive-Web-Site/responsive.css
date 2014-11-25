@@ -1,0 +1,68 @@
+/* Add here your responsive CSS */
+
+@media only screen and (max-width: 780px) {
+    .body {
+        width: 90%;
+    }
+
+    .mainHeader img {
+        width: 100%;
+        height: auto;
+        margin: 3% 0;
+    }
+
+    .mainHeader nav {
+        background: #666;
+        height: 160px;
+    }
+
+    .mainHeader nav ul {
+        padding: 0;
+    }
+
+    .mainHeader nav ul li {
+        display: block;
+        float: none;
+    }
+
+    .mainHeader nav a:link, .mainHeader nav a:visited {
+        display: block;
+    }
+
+    .post-info {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        float: none;
+    }
+
+    .top-sidebar, .middle-sidebar, .bottom-sidebar {
+        width: 94%;
+        float: none;
+        margin-left: 0;
+    }
+
+    .top-sidebar {
+        margin-top: 4%;
+    }
+
+    .top-sidebar p, .middle-sidebar p, .bottom-sidebar p {
+        padding-right: 15%;
+        padding-left: 5%;
+    }
+
+    .top-sidebar h2, .middle-sidebar h2, .bottom-sidebar h2 {
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .middle-sidebar, .bottom-sidebar {
+        margin-top: 4%;
+    }
+
+    .bottom-sidebar {
+        margin-bottom: 3%;
+    }
+}

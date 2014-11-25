@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body, img, form, input, h1, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("../resources/body-background.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: #f18f32;
+    font-size: 2.2em;
+    font-weight: normal;
+    margin: 40px 0 30px 0;
+}
+
+form {
+    width: 460px;
+    height: 390px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #a4875d;
+    box-shadow: inset 0 0 8px #a4875d;
+    border-radius: 5px;
+    background-color: #ece2ce;
+    padding: 20px 10px;
+}
+
+#icon-email {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+#icon-password {
+    position: absolute;
+    top: 77px;
+    left: 16px;
+}
+
+#icon-name {
+    position: absolute;
+    top: 186px;
+    left: 14px;
+}
+
+input {
+    font-size: 1em;
+    width: 440px;
+    height: 44px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #a4875d;
+    color: #895734;
+}
+
+input:focus {
+    box-shadow: inset 0 0 8px blue;
+}
+
+input[type="submit"] {
+    width: 160px;
+}
+
+input:nth-of-type(1) {
+    margin-bottom: 15px;
+}
+
+input:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+input:nth-of-type(3) {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    padding-left: 0;
+    color: #154856;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #05deff;
+    background-color: #05bae0;
+    border-color: #105262;
+}
+
+input[type="submit"]:hover {
+    box-shadow: inset 0 0 6px #105262;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: -45%;
+    margin-left: 27px;
+    border: 1px solid #a4875d;
+    border-radius: 5px;
+}

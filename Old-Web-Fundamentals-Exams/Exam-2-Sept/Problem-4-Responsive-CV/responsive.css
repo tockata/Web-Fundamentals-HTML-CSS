@@ -1,0 +1,88 @@
+@media only screen and  (max-width: 739px){
+    header {
+        text-align: center;
+    }
+
+    #info {
+        float: none;
+        margin-bottom: 12px;
+    }
+
+    #photo {
+        float: none;
+    }
+
+    h2, h4 {
+        text-align: center;
+    }
+
+    #w {
+        margin: 0px 50px;
+        padding: 20px 15px;
+        padding-top: 35px;
+    }
+
+    p {
+        padding: 0;
+        text-align: justify;
+    }
+
+    #skills-left {
+        display: block;
+        float: left;
+        margin-right: 30px;
+    }
+
+    #skills-right h4 {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 569px){
+    p {
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    #skills-left {
+        width: 80%;
+    }
+
+    #skills-right {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    #skills-left h4 {
+        text-align: left;
+    }
+
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        -webkit-column-width: 110px; /* Chrome, Safari, Opera */
+        -moz-column-width: 110px; /* Firefox */
+        column-width: 110px;
+    }
+
+    ul li {
+        padding-left: 15px;
+        background: url('bullet.png') -3px 5px no-repeat;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #w {
+        margin: 0 20px;
+        padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 2.2em;
+    }
+}

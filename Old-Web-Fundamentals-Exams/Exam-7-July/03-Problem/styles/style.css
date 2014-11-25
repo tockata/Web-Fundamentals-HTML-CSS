@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Yanone Kaffeesatz Regular";
+    src: url(../fonts/yanonekaffeesatz-regular-webfont.ttf);
+}
+
+body, header, section, footer, nav, a, ul, li, article, table, thead, td, th, tr, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: "Yanone Kaffeesatz Regular", Aril, sans-serif;
+    background-image: url("../resources/form-background.png");
+}
+
+#top {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("../resources/envelope-top.png");
+    background-repeat: no-repeat;
+    background-position: 85px 200px;
+}
+
+#bottom {
+    width: 700px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+#bottom img {
+    position: absolute;
+    top: 383px;
+    left: 410px;
+    z-index: 5;
+}
+
+.form {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #F6F2E9;
+    z-index: 1;
+    left: 450px;
+}
+
+form {
+    position: relative;
+    background: transparent;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    line-height: 108px;
+    color: #736F6A;
+    text-shadow: 0 2px 1px #F0EBDC;
+}
+
+h2, label {
+    margin-left: 20px;
+}
+
+h2 {
+    color: #736F6A;
+    padding-top: 10px;
+}
+
+label {
+    color: #B2ABA1;
+}
+
+textarea, input {
+    width: 380px;
+    margin-left: 20px;
+    background-color: #F6F2E9;
+    border: 1px solid #E7E0D5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea:focus, input:focus {
+    color: #44403D;
+    background-color: #F6F4EF;
+    outline: none;
+}
+
+textarea {
+    height: 60px;
+    max-height: 80px;
+    max-width: 400px;
+}
+
+input {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    width: 150px;
+    font-family: "Yanone Kaffeesatz Regular", Aril, sans-serif;
+    font-size: 24px;
+    height: 40px;
+    border: none;
+    color: #736F6A;
+    text-align: center;
+    margin: 0 0 0 152px;
+    padding: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #BECCD2;
+    color: #395165;
+}

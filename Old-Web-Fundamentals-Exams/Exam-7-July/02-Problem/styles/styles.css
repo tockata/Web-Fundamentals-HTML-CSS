@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito-Regular'), url(http://fonts.gstatic.com/s/nunito/v7/rAprGwwb-suIemivDBrAyfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+    font-family: 'Fairview';
+    src: url(../fonts/Fairview_Regular.otf);
+}
+
+body, header, section, footer, nav, a, ul, li, article, table, thead, td, th, tr, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+body {
+    font-family: Nunito, Arial, sans-serif;
+    font-size: 14px;
+}
+
+header>h1 {
+    font-family: Fairview, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    background-color: #DE5C42;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 6rem;
+}
+
+header>h1:hover {
+    color: black;
+}
+
+header > nav {
+    width: 670px;
+    font-family: Fairview, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+header nav ul li a {
+    color: #5A5A5A;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+header nav ul li:nth-of-type(3) a {
+    color: white;
+    background-color: #FF6347;
+}
+
+header nav ul li:nth-of-type(3) a:hover {
+    color: black;
+}
+
+section {
+    width: 670px;
+    margin: 0 auto 40px auto;
+}
+
+section h2 {
+    font-size: 1.7rem;
+    line-height: 5rem;
+}
+
+article h3 {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+article h3:last-of-type {
+    padding-top: 20px;
+}
+
+table {
+    margin-top: 15px;
+    margin-left: -19px;
+    border-spacing: 20px;
+}
+
+table th {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+td {
+    font-size: 1.2rem;
+    color: #080809;
+}
+
+td a {
+    color: #B80000;
+    text-decoration: none;
+    border-bottom: 1px dotted #FF6347;
+}
+
+td a:hover {
+    color: black;
+    border-bottom: 1px solid #FF6347;
+}
+
+footer {
+    background-color: #171717;
+}
+
+footer nav {
+    border-bottom: 1px solid #373737;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+footer nav ul li a {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #A9A9A9;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+footer nav ul li a:hover {
+    background-color: #A9A9A9;
+    color: #A41D1E;
+}
+
+footer .contacts {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .contacts a {
+    color: #484848;
+    text-decoration: none;
+}
+
+footer .contacts a:hover {
+    color: #A9A9A9;
+}
+
+footer #email {
+    display: block;
+    padding: 20px;
+}
